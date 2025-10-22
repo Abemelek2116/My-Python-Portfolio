@@ -16,13 +16,6 @@ class Account(ABC):
     """
 
     def __init__(self, account_number: str, owner, balance: float = 0.0):
-        """
-        Initialize a new Account instance.
-
-        :param account_number: Unique identifier for the account
-        :param owner: The customer who owns this account
-        :param balance: Initial account balance (default 0.0)
-        """
         self.account_number = account_number
         self.owner = owner
         self.balance = balance
@@ -45,8 +38,12 @@ class Account(ABC):
 
 class SavingsAccount(Account):
     """
-    Represents a savings account with standard deposit and withdrawal behavior.
+    Represents a savings account with interest accumulation.
     """
+
+    def __init__(self, account_number, owner, balance=0.0, interest_rate=0.02):
+        super().__init__(account_number, owner, balance)
+        self.interest_rate = interest_rate  # 2% default annual interest
 
     def deposit(self, amount: float) -> None:
         if amount <= 0:
@@ -60,6 +57,16 @@ class SavingsAccount(Account):
             raise ValueError("Insufficient funds.")
         self.balance -= amount
 
+    def apply_interest(self) -> float:
+        """
+        Apply interest to the current balance.
+
+        :return: Amount of interest added.
+        """
+        interest = self.balance * self.interest_rate
+        self.balance += interest
+        return interest
+
 
 class CheckingAccount(Account):
     """
@@ -67,11 +74,6 @@ class CheckingAccount(Account):
     """
 
     def __init__(self, account_number: str, owner, balance: float = 0.0, overdraft_limit: float = 500.0):
-        """
-        Initialize a checking account with an overdraft limit.
-
-        :param overdraft_limit: The maximum negative balance allowed.
-        """
         super().__init__(account_number, owner, balance)
         self.overdraft_limit = overdraft_limit
 
@@ -86,4 +88,3 @@ class CheckingAccount(Account):
         if amount > self.balance + self.overdraft_limit:
             raise ValueError("Withdrawal exceeds overdraft limit.")
         self.balance -= amount
-
