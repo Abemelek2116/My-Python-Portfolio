@@ -97,9 +97,9 @@ Abemelek Berhanu
 
 Passionate about clean code, algorithms, and problem-solving in Python.
 
-📂 GitHub Portfolio → [https://github.com/YourUsername
+📂 GitHub Portfolio → [https://github.com/Abemelek2116
 ]
-💬 Connect on LinkedIn → [Your LinkedIn Profile]
+💬 Connect on LinkedIn → [https://github.com/abemelek-berhanu]
 
 📜 License
 
