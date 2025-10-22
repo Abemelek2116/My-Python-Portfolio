@@ -37,4 +37,94 @@ Demonstrates multiple **Design Patterns** such as **Singleton**, **Factory**, **
 
 ## 🧩 Project Structure
 
+coffee-machine-simulator/
+│
+├── main.py
+├── models/
+│ ├── ingredient.py
+│ ├── drink.py
+│ └── recipe.py
+├── services/
+│ ├── coffee_machine.py
+│ └── order_manager.py
+├── utils/
+│ ├── id_generator.py
+│ ├── logger.py
+│ └── file_handler.py
+└── README.md
+
+
+```yaml
+
+---
+
+## ⚙️ Installation & Usage
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/<your-username>/coffee-machine-simulator.git
+cd coffee-machine-simulator
+```
+2️⃣ Run the Project
+```bash
+python main.py
+```
+3️⃣ Example Output
+```markdown
+=== Machine Resources ===
+ - Water: 2000.0ml
+ - Milk: 1000.0ml
+ - Coffee Beans: 500.0g
+ - Sugar: 300.0g
+
+[LOG]: Prepared Espresso for $2.50.
+[LOG]: Prepared Latte for $3.50.
+[LOG]: Prepared Cappuccino for $3.80.
+[LOG]: Undoing last order: Cappuccino
+[LOG]: Order history exported to orders.csv
+
+=== Machine Resources ===
+ - Water: 1850.0ml
+ - Milk: 850.0ml
+ - Coffee Beans: 458.0g
+ - Sugar: 290.0g
+```
+
+🧾 Exported CSV Example
+Drink	Price
+Espresso	2.50
+Latte	3.50
+🧰 Tech Stack
+
+Language: Python 3.10+
+
+Paradigm: Object-Oriented Programming
+
+Design Patterns: Singleton, Factory, Observer, Command
+
+Output: Console + CSV
+
+💼 Author
+
+Abemelek Berhanu
+💻 Passionate about Software Design, System Architecture, and OOP Principles
+🔗 GitHub
+ | LinkedIn
+
+🪪 License
+
+This project is licensed under the MIT License.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
