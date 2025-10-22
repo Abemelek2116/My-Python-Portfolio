@@ -8,13 +8,14 @@ Demonstrates the use of OOP and multiple design patterns.
 from services.bank import Bank
 from services.transaction_service import TransactionService
 from utils.logger import Logger, ConsoleLogger
+from utils.file_handler import export_transactions_to_csv
 
 
 def main():
     """
-    Main function that runs the simulation.
+    Main function that runs the banking system simulation.
     """
-    # Attach a console logger to observe real-time system events
+    # Attach a console logger
     Logger.subscribe(ConsoleLogger())
 
     # Create bank instance (Singleton)
@@ -25,7 +26,7 @@ def main():
     alice = bank.add_customer("Alice Johnson", "alice@example.com")
     bob = bank.add_customer("Bob Smith", "bob@example.com")
 
-    # Create accounts for customers
+    # Create accounts
     alice_acc = bank.create_account(alice, "savings")
     bob_acc = bank.create_account(bob, "checking")
 
@@ -33,9 +34,17 @@ def main():
     alice_acc.deposit(1000)
     Logger.log(f"{alice.name} deposited $1000.")
 
+    # Apply interest to Alice's savings
+    interest = alice_acc.apply_interest()
+    Logger.log(f"Interest of ${interest:.2f} applied to {alice.name}'s account.")
+
     # Execute a fund transfer
     transaction = tx_service.transfer(alice_acc, bob_acc, 200)
     Logger.log(f"Transaction completed: {transaction}")
+
+    # Export all transactions to CSV
+    export_transactions_to_csv(tx_service.get_history())
+    Logger.log("Transaction history exported to transactions.csv")
 
     # Display final balances
     print("\n=== Final Balances ===")
@@ -45,4 +54,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
