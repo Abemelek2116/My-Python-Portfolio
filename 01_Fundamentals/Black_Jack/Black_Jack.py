@@ -12,7 +12,6 @@ Rules:
 
 import random
 from replit import clear     # Optional: For clearing the console (works in Replit)
-from art import logo         # Optional: For printing a game logo (from art.py file)
 
 
 def deal_card():
@@ -63,7 +62,6 @@ def compare(user_score, computer_score):
 
 def play_game():
     """Main function that runs a single round of Blackjack."""
-    print(logo)
 
     user_cards = []
     computer_cards = []
