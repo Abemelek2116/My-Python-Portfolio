@@ -92,7 +92,7 @@ Passionate about writing clean, efficient, and user-friendly Python applications
 
 Connect on:
 
-**💬 LinkedIn** → [https://linkedin/abemelek-berhanu]
+**💬 LinkedIn** → [https://linkedin.com/abemelek-berhanu]
 
 📜 License
 
