@@ -1,6 +1,6 @@
 # 🃏 Blackjack — Python Console Game
 
-🎯 Overview
+## 🎯 Overview
 
 This project is a simple yet fully functional Blackjack game built in Python.
 It follows the traditional rules of Blackjack, where the player competes against a computer dealer.
@@ -9,10 +9,15 @@ The game logic demonstrates clean code design, control flow, functions, and user
 ## ⚙️ Features
 
 ✅ Randomized deck using Python’s random module
+
 ✅ Automatic Ace value handling (11 → 1 when necessary)
+
 ✅ Dealer (computer) plays according to standard Blackjack rules
+
 ✅ Dynamic win/loss logic with clear results
+
 ✅ Supports multiple game rounds
+
 ✅ Clean and commented code — easy to read and maintain
 
 ## 🧠 What I Learned
@@ -85,7 +90,7 @@ Opponent went over. You win 😁
 
 - Python 3
 
-random module for shuffling cards
+- random module for shuffling cards
 
 👨‍💻 Author
 
@@ -93,8 +98,8 @@ random module for shuffling cards
 
 Passionate about clean code, algorithms, and problem-solving in Python.
 
-📂 GitHub Portfolio → [https://github.com/Abemelek2116
-]
+📂 GitHub Portfolio → [https://github.com/Abemelek2116]
+
 💬 Connect on LinkedIn → [https://linkedin.com/abemelek-berhanu]
 
 📜 License
