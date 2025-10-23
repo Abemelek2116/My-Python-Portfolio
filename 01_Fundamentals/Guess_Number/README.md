@@ -8,9 +8,6 @@ The game offers two difficulty levels — **Easy (10 attempts)** and **Hard (5 a
 
 ## 🧠 Project Overview
 
-This project was built as part of **Day 12** of the  
-📘 *100 Days of Code: The Complete Python Pro Bootcamp by Angela Yu.*
-
 It demonstrates:
 - Core Python logic and conditionals
 - Function usage and scope
@@ -63,61 +60,70 @@ Make a guess: 33
 🎉 You got it! The answer was 33.
 
 
-```yaml
 
 ---
 
 ## ⚙️ Installation & Setup
+```yaml
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/<your-username>/number-guessing-game.git
+   git clone https://github.com/Abemelek2116/My-Python-Portfolio/Guess_Number.git
    cd number-guessing-game
 ```
 2.Run the program:
 ```bash
 python guess_number.py
 ```
-🧑‍💻 Technologies Used
 
-Python 3.10+
+---
 
-random module for number generation
+## 🧑‍💻 Technologies Used
 
-Clean code style compliant with PEP 8
+- Python 3.10+
 
-🏗️ Project Structure
+- random module for number generation
+
+---
+
+## 🏗️ Project Structure
 ```graphql
 📁 number-guessing-game
  ┣ 📜 guess_number.py
- ┣ 📜 README.md
- ┣ 📜 art.py            (optional for ASCII logo)
- ┗ 📜 LICENSE           (optional)
+ ┗ 📜 README.md
 ```
-📚 What I Learned
 
-Using functions for cleaner, modular code
+---
 
-Managing variables across scopes
+## 📚 What I Learned
 
-Implementing loops and conditionals effectively
+- Using functions for cleaner, modular code
 
-Handling user input errors gracefully
+- Managing variables across scopes
 
-Designing interactive command-line games
+- Implementing loops and conditionals effectively
 
-🧾 License
+- Handling user input errors gracefully
 
-This project is released under the MIT License
-.
+- Designing interactive command-line games
 
-🌟 Author
+---
 
-Abemelek Berhanu
+**🧾 License**
+
+This project is released under the MIT License.
+
+## 🌟 Author
+
+**Abemelek Berhanu**
+
 💼 Python Developer | Problem Solver | Lifelong Learner
-📧 [Your Email or LinkedIn]
-🔗 Your GitHub Profile
 
+📧 Email : [https://abemelekberhanu@gmail.com]
+
+🔗 GitHub : [https://github.com/Abemelek2116]
+
+📧 Linkedin : [https://linkedin.com/abemelek-berhanu]
 
 
 
