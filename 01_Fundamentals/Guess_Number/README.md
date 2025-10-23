@@ -139,7 +139,7 @@ python guess_number.py
 
 **🧾 License**
 
-This project is released under the MIT License.
+This project is released under the MIT License — free to use, modify, and distribute with attribution.
 
 
 
