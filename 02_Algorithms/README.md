@@ -86,6 +86,8 @@ python <main-file>.py
 
 3.Observe AI decisions, pathfinding behavior, Sudoku solving, or sorting animations in action.
 
+---
+
 💼 About Me
 
 Abemelek Berhanu
@@ -94,11 +96,11 @@ These projects reflect my dedication to learning advanced problem-solving techni
 
 📫 Contact & Profiles
 
-🔗 GitHub: github.com/<your-username>
+🔗 GitHub: https://github.com/Abemelek2116
 
-💼 LinkedIn: linkedin.com/in/<your-linkedin>
+💼 LinkedIn: https://linkedin.com/in/abemelek-berhanu
 
-📧 Email
+📧 Email: abemelekberhanu@gmail.com
 
 “The best way to learn algorithms is to build, visualize, and optimize them.”
 
