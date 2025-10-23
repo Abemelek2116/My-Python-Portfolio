@@ -78,13 +78,12 @@ This project helped me practice **GUI programming, real-time visualization, and 
 ---
 
 ## 📂 Project Structure
-
+```
 sorting-visualizer/
 │
 ├── sorting_visualizer.py # Main Python source code
 └── README.md # Project documentation
-
-```yaml
+```
 
 ---
 
@@ -105,19 +104,20 @@ python sorting_visualizer.py
 
 4.Watch the algorithm in action on the bar chart visualization.
 
-💼 About Me
+## 💼 About Me
 
-Abemelek Berhanu
-A passionate Python developer exploring algorithms, AI, and interactive projects.
-This project demonstrates my dedication to mastering algorithms and GUI programming.
+**Abemelek Berhanu**
 
-📫 Contact & Profiles
+- A passionate Python developer exploring algorithms, AI, and interactive projects.
+- This project demonstrates my dedication to mastering algorithms and GUI programming.
 
-🔗 GitHub: github.com/<your-username>
+## 📫 Contact & Profiles
 
-💼 LinkedIn: linkedin.com/in/<your-linkedin>
+🔗 GitHub: https://github.com/Abemelek2116
 
-📧 Email: your.email@example.com
+💼 LinkedIn: https://linkedin.com/in/abemelek-berhanu
+
+📧 Email: abemelekberhanu@gmail.com
 
 “Visualization is the bridge between algorithms and human understanding.”
 
