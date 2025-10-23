@@ -29,16 +29,20 @@ This project is based on **Day 5** of Angela Yu’s *100 Days of Code: The Compl
 ## 🧾 Example
 
 Welcome to the Python Password Generator! 🔐
+
 How many letters would you like in your password? 5
+
 How many symbols would you like? 2
+
 How many numbers would you like? 3
 
 Your generated password is: tA@p4s8Z#9
-```yaml
+
 
 ---
 
 ## 🛠️ Technologies Used
+
 - **Language:** Python 3  
 - **Modules:** `random` (built-in)
 
@@ -51,40 +55,47 @@ password-generator/
 │
 ├── password_generator.py # Main source code
 └── README.md # Project documentation
-
-
-
-```yaml
-
+```
 ---
 
 ## 🚀 How to Run
 
+```yaml
+
 1. Clone this repository:
    ```bash
-   git clone https://github.com/<your-username>/password-generator.git
+   git clone https://github.com/Abemele2116/My-Python-Portfolio/01_Fundamentals/Password_Generator/Password_Generator.git
 ```
 2.Navigate to the project directory:
 
 ```bash
-cd password-generator
+cd Password_Generator
 ```
 3.Run the program:
 ```bash
-python password_generator.py
+python Password_Generator.py
 ```
-💡 Learning Outcomes
 
-Understanding loops and randomization in Python
+---
 
-Combining user input and logic into a functional program
+## 💡 Learning Outcomes
 
-Writing clean, maintainable beginner-level code
+- Understanding loops and randomization in Python
 
-🧑‍💻 Author
+- Combining user input and logic into a functional program
+
+- Writing clean, maintainable beginner-level code
+
+## 🧑‍💻 Author
 
 Abemelek Berhanu
 
-🌐 GitHub Profile
+🌐 GitHub Profile -> [https://github.com/Abemelek2116]
+
+**Connect on:**
+
+Linkedin -> [https://linkedin.com/abemelekberhanu]
+
+Email -> [abemelekberhanu@gmail.com]
 
 
