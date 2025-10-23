@@ -29,34 +29,48 @@ It demonstrates:
 
 ## 🧩 How It Works
 
-1. The program picks a random number between **1 and 100**.  
+1. The program picks a random number between **1 and 100**.
 2. You choose a difficulty level:
    - **Easy** → 10 guesses  
    - **Hard** → 5 guesses  
-3. You enter your guesses.  
-4. The program gives feedback each time:  
+4. You enter your guesses.  
+5. The program gives feedback each time:  
    - "Too high" or "Too low"  
    - If correct → “🎉 You got it!”  
-5. If you run out of attempts → game over!
+6. If you run out of attempts → game over!
 
 ---
 
 ## 🖥️ Example Run
 
 🎯 NUMBER GUESSING GAME 🎯
+
 Welcome to the Number Guessing Game!
+
 I'm thinking of a number between 1 and 100.
+
 Choose a difficulty. Type 'easy' or 'hard': easy
+
 You have 10 attempts remaining to guess the number.
+
 Make a guess: 50
+
 Too high.
+
 Guess again.
+
 You have 9 attempts remaining to guess the number.
+
 Make a guess: 25
+
 Too low.
+
 Guess again.
+
 You have 8 attempts remaining to guess the number.
+
 Make a guess: 33
+
 🎉 You got it! The answer was 33.
 
 
@@ -69,7 +83,7 @@ Make a guess: 33
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/Abemelek2116/My-Python-Portfolio/Guess_Number.git
-   cd number-guessing-game
+   cd Guess_Number
 ```
 2.Run the program:
 ```bash
@@ -88,7 +102,7 @@ python guess_number.py
 
 ## 🏗️ Project Structure
 ```graphql
-📁 number-guessing-game
+📁 Guess_Number
  ┣ 📜 guess_number.py
  ┗ 📜 README.md
 ```
@@ -109,10 +123,6 @@ python guess_number.py
 
 ---
 
-**🧾 License**
-
-This project is released under the MIT License.
-
 ## 🌟 Author
 
 **Abemelek Berhanu**
@@ -125,7 +135,11 @@ This project is released under the MIT License.
 
 📧 Linkedin : [https://linkedin.com/abemelek-berhanu]
 
+---
 
+**🧾 License**
+
+This project is released under the MIT License.
 
 
 
