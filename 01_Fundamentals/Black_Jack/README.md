@@ -69,14 +69,15 @@ Click `Run` to start the game.
 
 Make sure you have `Python 3.10+` installed.
 
-Save the project as blackjack.py.
+Save the project as `blackjack.py`.
 
 Run the game:
-
+```yaml
 python blackjack.py
+```
 
 ## 🧾 Example Output
-```
+```output
 Do you want to play a game of Blackjack? Type `y` or `n` : y
 Your cards: [10, 7], current score: 17
 Computer's first card: 6
