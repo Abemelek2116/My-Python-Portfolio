@@ -107,9 +107,8 @@ ai-tic-tac-toe/
 ---
 
 ## 🚀 How to Run
-```yaml
-
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/Abemelek2116/My-Python-Portfolio/02_Algorithms/Ai-Tic-Tac-Toe(Minimax)/Ai-Tic-Tac-Toe(Minimax).git
 cd Ai-Tic-Tac-Toe(Minimax)
