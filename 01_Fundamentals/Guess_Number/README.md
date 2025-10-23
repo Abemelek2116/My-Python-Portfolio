@@ -1,8 +1,8 @@
 # 🎯 Number Guessing Game (Python)
 
-A simple yet engaging **Number Guessing Game** built in Python.  
-The computer randomly selects a number between **1 and 100**, and your task is to guess it in as few attempts as possible.  
-The game offers two difficulty levels — **Easy (10 attempts)** and **Hard (5 attempts)**.
+- A simple yet engaging **Number Guessing Game** built in Python.  
+- The computer randomly selects a number between **1 and 100**, and your task is to guess it in as few attempts as possible.  
+- The game offers two difficulty levels — **Easy (10 attempts)** and **Hard (5 attempts)**.
 
 ---
 
