@@ -1,9 +1,13 @@
 # 🧮 Python Calculator
 
+---
+
 ## 🎯 Overview
 
 This project is a simple, interactive command-line calculator built in Python.
 It performs basic arithmetic operations and allows users to continue calculations using previous results, demonstrating function design, loops, recursion, and clean programming structure.
+
+---
 
 ## ⚙️ Features
 
@@ -19,6 +23,8 @@ It performs basic arithmetic operations and allows users to continue calculation
 
 ✅ Works on any platform — no dependencies required
 
+---
+
 # 🧠 What I Learned
 
 - How to design modular programs using functions and dictionaries
@@ -30,6 +36,8 @@ It performs basic arithmetic operations and allows users to continue calculation
 - Writing clean, professional, and maintainable Python code
 
 - Structuring a CLI (Command-Line Interface) project for GitHub portfolios
+
+---
 
 ## 🕹️ How to Use
 
@@ -70,11 +78,16 @@ Enter the next number: 30
 
 Result: 50 - 30 = 20
 ```
+
+---
+
 ## 🧰 Technologies Used
 
 - Python 3.10+
 
 - Built-in standard library only (no external dependencies)
+
+---
 
 ## 📂 Project Structure
 ```graphql
@@ -82,6 +95,9 @@ Result: 50 - 30 = 20
  ┣ 📜 calculator.py     # Main program
  ┣ 📜 README.md         # Project documentation
 ```
+
+---
+
 👨‍💻 Author
 
 **Abemelek Berhanu**
@@ -93,6 +109,8 @@ Passionate about writing clean, efficient, and user-friendly Python applications
 Connect on:
 
 **💬 LinkedIn** → [https://linkedin.com/abemelek-berhanu]
+
+---
 
 **📜 License**
 
