@@ -1,7 +1,7 @@
 # 📝 To-Do List Manager (Python)
 
-A beginner-friendly, console-based **To-Do List Manager** built in Python.  
-This program allows users to **add, view, mark as done, and delete tasks** in a simple and organized manner.
+- A beginner-friendly, console-based **To-Do List Manager** built in Python.  
+- This program allows users to **add, view, mark as done, and delete tasks** in a simple and organized manner.
 
 ---
 
@@ -33,70 +33,76 @@ This program allows users to **add, view, mark as done, and delete tasks** in a 
 ## 🖥️ Example Run
 
 📝 Welcome to Your To-Do List Manager!
+
 Choose an option:
 
-View tasks
-
-Add a task
-
-Mark task as done
-
-Delete a task
-
-Exit
+1. View tasks
+2. Add a task
+3. Mark task as done
+4. Delete a task
+5. Exit
 
 Enter your choice (1-5): 2
+
 Enter the task you want to add: Finish Python portfolio
+
 Task added: Finish Python portfolio
-
-Enter your choice (1-5): 1
-
-📋 Your To-Do List:
-
-Finish Python portfolio [❌ Pending]
-
-```yaml
-## ⚙️ Installation & Setup
 
 ---
 
 ## ⚙️ Installation & Setup
 
+
+```yaml
+
 1. Clone the repository:
 ```bash
-git clone https://github.com/<your-username>/todo-list-manager.git
+git clone https://github.com/Abemelek2116.My-Python-Portfolio/01_Fundamentals/To_Do-List-manager.git
 cd todo-list-manager
 
 ```
 2.Run the program:
 ```
-python todo_list.py
+python To_Do_List.py
 ```
-🧰 Technologies Used
 
-Python 3.10+
+---
 
-Built-in standard libraries only
+## 🧰 Technologies Used
 
-💡 Learning Outcomes
+- Python 3.10+
 
-Writing modular Python code using functions
+- Built-in standard libraries only
 
-Managing data with dictionaries
+---
 
-Handling user input and control flow
+## 💡 Learning Outcomes
 
-Creating a beginner-friendly console application
+- Writing modular Python code using functions
 
-Structuring a project for GitHub portfolio
+- Managing data with dictionaries
 
-🧑‍💻 Author
+- Handling user input and control flow
 
-Abemelek Berhanu
-📂 GitHub Portfolio: [Your GitHub Profile]
-💬 LinkedIn: [Your LinkedIn Profile]
+- Creating a beginner-friendly console application
 
-📜 License
+- Structuring a project for GitHub portfolio
+
+---
+
+## 🧑‍💻 Author
+
+**Abemelek Berhanu**
+
+📂 GitHub Portfolio: [https://github.com/Abemelek2116]
+
+💬 LinkedIn: [https://linkedin.com/abemelek-berhanu]
+
+Email -> [abemelekberhanu@gmail.com]
+
+---
+
+## 📜 License
 
 MIT License — free to use, modify, and distribute with attribution.
 
