@@ -62,7 +62,7 @@ This project helped me practice **GUI programming, real-time visualization, and 
 - **Language:** Python 3  
 - **GUI:** `Tkinter`  
 - **Algorithms:** Bubble Sort, Insertion Sort, Selection Sort  
-- **Tools:** VS Code, PyCharm, Replit  
+- **Tools:** PyCharm  
 - **Version Control:** Git & GitHub  
 
 ---
@@ -104,12 +104,16 @@ python sorting_visualizer.py
 
 4.Watch the algorithm in action on the bar chart visualization.
 
+---
+
 ## 💼 About Me
 
 **Abemelek Berhanu**
 
 - A passionate Python developer exploring algorithms, AI, and interactive projects.
 - This project demonstrates my dedication to mastering algorithms and GUI programming.
+
+---
 
 ## 📫 Contact & Profiles
 
