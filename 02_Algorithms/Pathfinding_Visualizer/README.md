@@ -82,12 +82,12 @@ The project was designed to be **interactive, beginner-friendly**, and visually 
 ---
 
 ## 📂 Project Structure
+```
 pathfinding-visualizer/
 │
 ├── pathfinding_visualizer.py # Main Python source code
 └── README.md # Project documentation
-
-```yaml
+```
 
 ---
 
@@ -95,8 +95,8 @@ pathfinding-visualizer/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/<your-username>/pathfinding-visualizer.git
-cd pathfinding-visualizer
+git clone https://github.com/Abemlek2116/My-Python-Portfolio/02_Algorithms/Pathfinding_Visualizer/Pathfinding_Visualizer.git
+cd Pathfinding_Visualizer
 ```
 
 2.Run the program:
@@ -107,19 +107,20 @@ python pathfinding_visualizer.py
 
 4.Press "Start A Pathfinding"* to visualize the algorithm.
 
-💼 About Me
+## 💼 About Me
 
-Abemelek Berhanu
-A passionate Python developer exploring algorithms, AI, and interactive projects.
-This project demonstrates my dedication to learning algorithmic thinking and GUI programming in Python.
+**Abemelek Berhanu**
+
+- A passionate Python developer exploring algorithms, AI, and interactive projects.
+- This project demonstrates my dedication to learning algorithmic thinking and GUI programming in Python.
 
 📫 Contact & Profiles
 
-🔗 GitHub: github.com/<your-username>
+🔗 GitHub: https://github.com/Abemelek2116
 
-💼 LinkedIn: linkedin.com/in/<your-linkedin>
+💼 LinkedIn: https://linkedin.com/in/abemelek-berhanu
 
-📧 Email: your.email@example.com
+📧 Email: abemelekberhanu@gmail.com
 
 “Algorithms are the heartbeat of AI, and visualization makes them alive.”
 
