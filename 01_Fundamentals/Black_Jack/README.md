@@ -116,9 +116,14 @@ Opponent went over. You win 😁
 
 Passionate about clean code, algorithms, and problem-solving in Python.
 
-📂 GitHub Portfolio → [https://github.com/Abemelek2116]
+**📂 GitHub Portfolio** → [https://github.com/Abemelek2116]
 
-💬 Connect on LinkedIn → [https://linkedin.com/abemelek-berhanu]
+## 💬 Connect on 
+
+LinkedIn → [https://linkedin.com/abemelek-berhanu]
+
+Email → [abemelekberhanu@gmail.com]
+
 
 ---
 
