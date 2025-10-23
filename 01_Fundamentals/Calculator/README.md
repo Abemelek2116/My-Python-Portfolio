@@ -75,12 +75,12 @@ Result: 50 - 30 = 20
 - Python 3.10+
 
 - Built-in standard library only (no external dependencies)
+
+## 📂 Project Structure
 ```graphql
-📂 Project Structure
 📁 python-calculator
  ┣ 📜 calculator.py     # Main program
  ┣ 📜 README.md         # Project documentation
- ┗ 📜 LICENSE           # (Optional) MIT License
 ```
 👨‍💻 Author
 
