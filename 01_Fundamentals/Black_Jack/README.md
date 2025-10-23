@@ -110,7 +110,7 @@ Opponent went over. You win 😁
 
 ---
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 **Abemelek Berhanu**
 
@@ -122,7 +122,7 @@ Passionate about clean code, algorithms, and problem-solving in Python.
 
 ---
 
-📜 License
+## 📜 License
 
 This project is released under the MIT License — feel free to use, modify, and share with credit.
 
