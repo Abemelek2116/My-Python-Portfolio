@@ -1,31 +1,38 @@
-🧮 Python Calculator
-🎯 Overview
+# 🧮 Python Calculator
+
+## 🎯 Overview
 
 This project is a simple, interactive command-line calculator built in Python.
 It performs basic arithmetic operations and allows users to continue calculations using previous results, demonstrating function design, loops, recursion, and clean programming structure.
 
-⚙️ Features
+## ⚙️ Features
 
 ✅ Performs addition, subtraction, multiplication, and division
+
 ✅ Handles division by zero gracefully
+
 ✅ Allows continuous chained calculations
+
 ✅ Built with modular and reusable functions
+
 ✅ Follows Python’s best practices and PEP 8 standards
+
 ✅ Works on any platform — no dependencies required
 
-🧠 What I Learned
+# 🧠 What I Learned
 
-How to design modular programs using functions and dictionaries
+- How to design modular programs using functions and dictionaries
 
-Implementing loops and conditional logic for continuous interaction
+- Implementing loops and conditional logic for continuous interaction
 
-Error handling (e.g., divide by zero, invalid operator)
+- Error handling (e.g., divide by zero, invalid operator)
 
-Writing clean, professional, and maintainable Python code
+- Writing clean, professional, and maintainable Python code
 
-Structuring a CLI (Command-Line Interface) project for GitHub portfolios
+- Structuring a CLI (Command-Line Interface) project for GitHub portfolios
 
-🕹️ How to Use
+## 🕹️ How to Use
+
 1️⃣ Run the Program
 
 Run the calculator in your terminal:
@@ -63,27 +70,29 @@ Enter the next number: 30
 
 Result: 50 - 30 = 20
 ```
-🧰 Technologies Used
+## 🧰 Technologies Used
 
-Python 3.10+
+- Python 3.10+
 
-Built-in standard library only (no external dependencies)
+- Built-in standard library only (no external dependencies)
 ```graphql
 📂 Project Structure
 📁 python-calculator
  ┣ 📜 calculator.py     # Main program
- ┣ 📜 art.py            # Optional ASCII logo (from Angela Yu's course)
  ┣ 📜 README.md         # Project documentation
  ┗ 📜 LICENSE           # (Optional) MIT License
 ```
 👨‍💻 Author
 
-Abemelek Berhanu
+**Abemelek Berhanu**
 
 Passionate about writing clean, efficient, and user-friendly Python applications.
 
-📂 GitHub Portfolio → [Your GitHub Profile Link]
-💬 LinkedIn → [Your LinkedIn Profile Link]
+**📂 GitHub Portfolio** → [https://github.com/Abemelek2116]
+
+Connect on:
+
+**💬 LinkedIn** → [https://linkedin/abemelek-berhanu]
 
 📜 License
 
