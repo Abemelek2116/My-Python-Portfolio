@@ -76,7 +76,6 @@ This project helped me practice **recursion, logic validation, and structured pr
 2 8 7 | 4 1 9 | 6 3 5
 3 4 5 | 2 8 6 | 1 7 9
 
-```yaml
 
 ---
 
@@ -84,7 +83,7 @@ This project helped me practice **recursion, logic validation, and structured pr
 
 - **Language:** Python 3  
 - **Algorithms:** Backtracking for constraint solving  
-- **Tools:** VS Code, PyCharm, Replit  
+- **Tools:**  PyCharm  
 - **Version Control:** Git & GitHub  
 
 ---
@@ -106,16 +105,16 @@ sudoku-solver/
 ├── sudoku_solver.py # Main Python source code
 └── README.md # Project documentation
 
-```yaml
-
+```
 ---
 
 ## 🚀 How to Run
 
-1. Clone the repository:
+1. Clone the repository
+
 ```bash
-git clone https://github.com/<your-username>/sudoku-solver.git
-cd sudoku-solver
+git clone https://github.com/Abemelek2116/My-Python-Portfolio/02_Algorithms/Sudoku_Solver/Sudoku_Solver.git
+cd Sudoku_Solver
 ```
 
 2.Run the program:
@@ -124,19 +123,20 @@ python sudoku_solver.py
 ```
 3.The program will display the initial puzzle and the solved board in the console.
 
-💼 About Me
+## 💼 About Me
 
-Abemelek Berhanu
-A passionate Python developer exploring algorithms, AI, and problem-solving projects.
-This project demonstrates my dedication to mastering algorithmic thinking and coding fundamentals.
+**Abemelek Berhanu**
+
+- A passionate Python developer exploring algorithms, AI, and problem-solving projects.
+- This project demonstrates my dedication to mastering algorithmic thinking and coding fundamentals.
 
 📫 Contact & Profiles
 
-🔗 GitHub: github.com/<your-username>
+🔗 GitHub: https://github.com/Abemelek2116
 
-💼 LinkedIn: linkedin.com/in/<your-linkedin>
+💼 LinkedIn: https://linkedin.com/in/abemelek-berhanu
 
-📧 Email: your.email@example.com
+📧 Email: abemelekberhanu@gmail.com
 
 “Recursion is the heartbeat of problem-solving in programming.”
 
