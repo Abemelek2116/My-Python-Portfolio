@@ -99,18 +99,19 @@ Each step was an intentional investment in mastering:
 ## 💼 About Me
 
 **👨‍💻 Abemelek Berhanu**  
+
 A passionate and dedicated Python developer focused on building real-world skills from the ground up.  
 I believe in mastering fundamentals before scaling complexity — and these projects reflect that mindset.
 
 📫 **Contact & Profiles**  
-- 🔗 GitHub: [github.com/<your-username>](https://github.com/<your-username>)  
-- 💼 LinkedIn: [linkedin.com/in/<your-linkedin>](https://linkedin.com/in/<your-linkedin>)  
-- 📧 Email: [your.email@example.com](mailto:your.email@example.com)
+- 🔗 GitHub: https://github.com/Abemelek2116  
+- 💼 LinkedIn: https://linkedin.com/in/abemelek-berhanu  
+- 📧 Email: abemelekberhanu@gmail.com
 
 ---
 
 > “The expert in anything was once a beginner.”  
-> — *Helen Hayes*
+
 
 
 
