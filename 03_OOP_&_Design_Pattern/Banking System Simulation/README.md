@@ -38,7 +38,7 @@ This project manages customers, accounts, and transactions — with real-time lo
 ---
 
 ## 🧩 Project Structure
-
+```
 banking-system-simulation/
 │
 ├── main.py
@@ -56,8 +56,7 @@ banking-system-simulation/
 │ ├── id_generator.py
 │ └── file_handler.py
 └── README.md
-
-```yaml
+```
 
 ---
 
@@ -65,8 +64,8 @@ banking-system-simulation/
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/banking-system-simulation.git
-cd banking-system-simulation
+git clone https://github.com/Abemelek2116/My-Python-Portfolio/03_OOP_&_Design_Pattern/Banking System Simulation.git
+cd Banking System Simulation
 ```
 2️⃣ Run the Project
 ```bash
@@ -80,32 +79,36 @@ python main.py
 [LOG]: Transaction history exported to transactions.csv
 
 === Final Balances ===
-SavingsAccount(ACC-JE48SA) - Owner: Alice Johnson, Balance: $820.00
-CheckingAccount(ACC-9X1Y7H) - Owner: Bob Smith, Balance: $200.00
+SavingsAccount(ACC-JE48SA) - Owner: Abemelek Berhanu, Balance: $820.00
+CheckingAccount(ACC-9X1Y7H) - Owner: Yalew Kebede, Balance: $200.00
 ```
 🧾 Exported CSV Example
+```
 Transaction ID	From Account	To Account	Amount	Timestamp
 TXN-9A7BCD	ACC-JE48SA	ACC-9X1Y7H	200.00	2025-10-22 10:40:00
-🧰 Tech Stack
+```
+## 🧰 Tech Stack
 
-Language: Python 3.10+
+- Language: Python 3.10+
 
-Paradigm: Object-Oriented Programming
+- Paradigm: Object-Oriented Programming
 
-Concepts: Encapsulation, Abstraction, Inheritance, Polymorphism
+- Concepts: `Encapsulation`, `Abstraction`, `Inheritance`, `Polymorphism`
 
-Design Patterns: GoF (Gang of Four)
+- Design Patterns: GoF (Gang of Four)
 
-Output: Console + CSV
+- Output: Console + CSV
 
-💼 Author
+## 💼 Author
 
-Abemelek Berhanu
+**Abemelek Berhanu**
 💻 Passionate about Software Engineering, System Design & OOP Principles
-🔗 GitHub
- | LinkedIn
 
-🪪 License
+🔗 GitHub : https://github.com/Abemelek2116
+
+ | LinkedIn : https://linkedin.com/abemelek-berhanu
+
+## License
 
 This project is licensed under the MIT License
 
