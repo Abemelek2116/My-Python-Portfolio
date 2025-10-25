@@ -37,6 +37,7 @@ Demonstrates multiple **Design Patterns** such as **Singleton**, **Factory**, **
 
 ## 🧩 Project Structure
 
+```
 coffee-machine-simulator/
 │
 ├── main.py
@@ -52,9 +53,7 @@ coffee-machine-simulator/
 │ ├── logger.py
 │ └── file_handler.py
 └── README.md
-
-
-```yaml
+```
 
 ---
 
@@ -62,8 +61,8 @@ coffee-machine-simulator/
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/coffee-machine-simulator.git
-cd coffee-machine-simulator
+git clone https://github.com/Abemelek2116/My-Python-Portfolio/03_OOP_&Design_Pattern/Coffee Machine Simulator.git
+cd Coffee Machine Simulator
 ```
 2️⃣ Run the Project
 ```bash
@@ -91,27 +90,32 @@ python main.py
 ```
 
 🧾 Exported CSV Example
-Drink	Price
-Espresso	2.50
-Latte	3.50
-🧰 Tech Stack
+```
+Drink	       Price
+Espresso	   2.50
+Latte	       3.50
+```
+## 🧰 Tech Stack
 
-Language: Python 3.10+
+- Language: Python 3.10+
 
-Paradigm: Object-Oriented Programming
+- Paradigm: Object-Oriented Programming
 
-Design Patterns: Singleton, Factory, Observer, Command
+- Design Patterns: Singleton, Factory, Observer, Command
 
-Output: Console + CSV
+- Output: Console + CSV
 
-💼 Author
+## 💼 Author
 
-Abemelek Berhanu
+**Abemelek Berhanu**
+
 💻 Passionate about Software Design, System Architecture, and OOP Principles
-🔗 GitHub
- | LinkedIn
 
-🪪 License
+🔗 GitHub  : https://github.com/Abemelek2116
+
+ | LinkedIn : https://linkedin.com/abemelek-berhanu
+
+## License
 
 This project is licensed under the MIT License.
 
