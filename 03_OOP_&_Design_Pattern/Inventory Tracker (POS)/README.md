@@ -16,8 +16,9 @@ A professional Object-Oriented Point-of-Sale system that tracks products, sales,
 ## 🧩 How to Run
 1. Clone this repository:
    ```bash
-   git clone https://github.com/<your-username>/inventory_tracker_pos.git
+   git clone https://github.com/Abemelek2116/inventory_tracker_pos.git
    cd inventory_tracker_pos
+   ```
 2.Run the main file:
 ```bash
 python main.py
