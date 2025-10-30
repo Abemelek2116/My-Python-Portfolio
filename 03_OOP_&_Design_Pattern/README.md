@@ -1,43 +1,43 @@
-🧠 Object-Oriented Programming & Design Patterns
+# 🧠 Object-Oriented Programming & Design Patterns
 
 A curated collection of OOP-driven Python projects demonstrating design patterns, modular architecture, and maintainable system design.
 
 <p align="center"> <img src="https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/OOP-Class%20Design-orange?logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Design%20Patterns-Factory%2C%20Singleton%2C%20Strategy-green?style=flat-square" /> <img src="https://img.shields.io/badge/SOLID-Principles-critical?style=flat-square" /> <img src="https://img.shields.io/badge/Software%20Architecture-Modular%20and%20Extensible-blueviolet?style=flat-square" /> </p>
 
-🚀 Overview
+## 🚀 Overview
 
 This section contains five professional OOP projects designed to demonstrate:
 
-Deep understanding of object-oriented principles
+- Deep understanding of object-oriented principles
 
-Application of creational, structural, and behavioral design patterns
+- Application of creational, structural, and behavioral design patterns
 
-Writing scalable, extensible, and maintainable codebases
+- Writing scalable, extensible, and maintainable codebases
 
-Following SOLID and DRY principles
+- Following SOLID and DRY principles
 
-Each project mimics a real-world software system and is structured like a production-ready Python package
+- Each project mimics a real-world software system and is structured like a production-ready Python package
 
 
-🧩 Projects Included
+## 🧩 Projects Included
 💰 1. Banking System Simulation
 
 Goal: Simulate real-world banking operations using object-oriented architecture.
 
 Features:
 
-Account creation (Savings, Current)
+- Account creation (Savings, Current)
 
-Deposit, withdrawal, and transfer
+- Deposit, withdrawal, and transfer
 
-Transaction logging and report generation
+- Transaction logging and report generation
 
-Implements Factory Pattern for account types and Singleton for logging
+- Implements Factory Pattern for account types and Singleton for logging
 
-Tech Stack: Python, OOP, Design Patterns
+**Tech Stack**: `Python`, `OOP`, `Design Patterns`
 
-📁 Folder: banking_system_simulation/
-📄 Main File: main.py
+📁 **Folder**: Banking System Simulation/
+📄 **Main File**: main.py
 
 ☕ 2. Coffee Machine Simulator
 
