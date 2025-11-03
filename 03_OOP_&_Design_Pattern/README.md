@@ -18,104 +18,100 @@ This section contains five professional OOP projects designed to demonstrate:
 
 - Each project mimics a real-world software system and is structured like a production-ready Python package
 
+---
 
 ## 🧩 Projects Included
-💰 1. Banking System Simulation
+## 💰 1. Banking System Simulation
 
-Goal: Simulate real-world banking operations using object-oriented architecture.
+**Goal**: Simulate real-world banking operations using object-oriented architecture.
 
-Features:
-
+## Features:
 - Account creation (Savings, Current)
-
 - Deposit, withdrawal, and transfer
-
 - Transaction logging and report generation
-
 - Implements Factory Pattern for account types and Singleton for logging
 
 **Tech Stack**: `Python`, `OOP`, `Design Patterns`
 
 📁 **Folder**: Banking System Simulation/
+
 📄 **Main File**: main.py
 
-☕ 2. Coffee Machine Simulator
+---
 
-Goal: Model a fully functional coffee machine using encapsulation and inheritance.
+## ☕ 2. Coffee Machine Simulator
 
-Features:
+**Goal**: Model a fully functional coffee machine using encapsulation and inheritance.
 
-Object-oriented drink preparation workflow
+## Features:
+- Object-oriented drink preparation workflow
+- Ingredient management and inventory system
+- Implements State Pattern and Command Pattern
+- Extensible for new beverage types
 
-Ingredient management and inventory system
+**Tech Stack**: `Python`, `OOP`, `Command Pattern`, `State Pattern`
 
-Implements State Pattern and Command Pattern
+**📁 Folder**: coffee_machine_simulator/
 
-Extensible for new beverage types
+**📄 Main File**: coffee_machine.py
 
-Tech Stack: Python, OOP, Command Pattern, State Pattern
+---
 
-📁 Folder: coffee_machine_simulator/
-📄 Main File: coffee_machine.py
+## 🏪 3. Inventory Tracker (POS System)
 
-🏪 3. Inventory Tracker (POS System)
+**Goal**: Build a Point-of-Sale inventory management system.
 
-Goal: Build a Point-of-Sale inventory management system.
+## Features:
+- Product catalog with pricing, quantity, and supplier tracking
+- Sales recording and stock updates
+- Discount strategy using Strategy Pattern
+- Clean separation of data, business logic, and UI
 
-Features:
+**Tech Stack**: `Python`, `OOP`, `Strategy Pattern`, `MVC Principles`
 
-Product catalog with pricing, quantity, and supplier tracking
+**📁 Folder**: inventory_tracker_POS/
 
-Sales recording and stock updates
+**📄 Main File**: pos_main.py
 
-Discount strategy using Strategy Pattern
+---
 
-Clean separation of data, business logic, and UI
+## 📚 4. Library Management System
 
-Tech Stack: Python, OOP, Strategy Pattern, MVC Principles
+**Goal**: Manage a digital library with borrow/return tracking and user management.
 
-📁 Folder: inventory_tracker_POS/
-📄 Main File: pos_main.py
+## Features:
+- Book registration and member management
+- Borrowing history and fine calculation
+- Uses Observer Pattern for notifications
+- Follows Repository Pattern for data persistence
 
-📚 4. Library Management System
+**Tech Stack**: `Python`, `OOP`, `Observer Pattern`, `Repository Pattern`
 
-Goal: Manage a digital library with borrow/return tracking and user management.
+**📁 Folder**: library_management_system/
 
-Features:
+**📄 Main File**: library_main.py
 
-Book registration and member management
+---
 
-Borrowing history and fine calculation
+## 🧩 5. Plugin-Based Application Framework
 
-Uses Observer Pattern for notifications
+**Goal**: Design an extensible framework that supports pluggable modules.
 
-Follows Repository Pattern for data persistence
+## Features:
+- Dynamic module discovery using importlib
+- Loose coupling with Dependency Injection
+- Example plugins (e.g., Analytics, Logging, Security)
+- Demonstrates Plugin Architecture and Strategy Pattern
 
-Tech Stack: Python, OOP, Observer Pattern, Repository Pattern
+**Tech Stack**: `Python`, `OOP`, `Plugin Architecture`, `Dependency Injection`
 
-📁 Folder: library_management_system/
-📄 Main File: library_main.py
+**📁 Folder**: plugin_based_framework/
 
-🧩 5. Plugin-Based Application Framework
+**📄 Main File**: framework_main.py
 
-Goal: Design an extensible framework that supports pluggable modules.
+---
 
-Features:
-
-Dynamic module discovery using importlib
-
-Loose coupling with Dependency Injection
-
-Example plugins (e.g., Analytics, Logging, Security)
-
-Demonstrates Plugin Architecture and Strategy Pattern
-
-Tech Stack: Python, OOP, Plugin Architecture, Dependency Injection
-
-📁 Folder: plugin_based_framework/
-📄 Main File: framework_main.py
-
-📂 Project Structure
+## 📂 Project Structure
 
 ```
 03_OOP_&_Design_Pattern/
@@ -144,7 +140,10 @@ Tech Stack: Python, OOP, Plugin Architecture, Dependency Injection
 │
 └── README.md   ← (This file)
 ```
-🧠 Concepts & Design Patterns Demonstrated
+
+---
+
+## 🧠 Concepts & Design Patterns Demonstrated
 
 | Category                 | Concepts Applied                                      |
 | ------------------------ | ----------------------------------------------------- |
@@ -155,35 +154,48 @@ Tech Stack: Python, OOP, Plugin Architecture, Dependency Injection
 | **Software Engineering** | SOLID, DRY, Loose Coupling, Reusability               |
 | **Architecture**         | MVC, Layered Design, Dependency Injection             |
 
-⚙️ How to Run
+---
 
+## ⚙️ How to Run
+
+
+1️⃣ Clone the repository
 ```
-# 1️⃣ Clone the repository
-git clone https://github.com/<your-username>/03_OOP_&_Design_Pattern.git
-
-# 2️⃣ Navigate to a specific project folder
+git clone https://github.com/Abemelek2116/03_OOP_&_Design_Pattern.git
+```
+2️⃣ Navigate to a specific project folder
+```
 cd 03_OOP_&_Design_Pattern/library_management_system
-
-# 3️⃣ Run the main script
+```
+3️⃣ Run the main script
+```
 python library_main.py
 ```
 
-🌐 Run Online (Optional)
+---
+
+## 🌐 Run Online (Optional)
 
 You can also launch and explore these projects online using Replit or Codespaces:
 
+---
 
+## 🧾 License
 
+This project collection is released under the MIT License.
 
-🧾 License
+---
 
-This project collection is released under the MIT License
-.
+## 💬 Author
 
-💬 Author
+👨‍💻 Abemelek Berhanu
 
-👨‍💻 [Your Name]
 Software Engineer | Python Developer | Object-Oriented Design Enthusiast
+
 🌐 LinkedIn Profile
 
+https://linkedin.com/abemelek-berhanu
+
 💻 GitHub Profile
+
+https://github.com/Abemelek2116
