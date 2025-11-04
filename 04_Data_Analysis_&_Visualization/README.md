@@ -48,7 +48,7 @@ data_analysis_project/
 
 ## 🚀 Featured Projects
 
-# 🦠 1️⃣ COVID Data Dashboard
+## 🦠 1️⃣ COVID Data Dashboard
 
 **📌 Goal**: Track and visualize COVID-19 trends across countries.
 **📈 Key Insights**: Total cases, daily growth rates, recovery trends.
