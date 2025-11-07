@@ -15,11 +15,12 @@
 </p>
 
 <p align="center">
-	<img src="https://github-profile-trophy.vercel.app/?username=Abemelek2116&theme=darkhub" alt="Trophies" />
-	&nbsp;&nbsp;
-	<img alt="GitHub Streak" src="https://streak-stats.demolab.com?user=Abemelek2116&theme=dark&hide_border=true" />
-	&nbsp;&nbsp;
-	<img src="https://visitor-badge.glitch.me/badge?page_id=Abemelek2116.Abemelek2116" alt="visitor badge" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Abemelek2116&theme=onedark" alt="Trophy" />
+  &nbsp;&nbsp;
+  &nbsp;&nbsp;
+  <a href="https://github.com/Abemelek2116">
+    <img src="https://komarev.com/ghpvc/?username=Abemelek2116&color=brightgreen" alt="Visitor Count" />
+  </a>
 </p>
 
 ---
@@ -48,78 +49,6 @@ Motto:
 
 ---
 
-## Motion Timeline — from Fundamentals → AI
-
-<p align="center">
-	<!-- Animated SVG timeline: simple, dark-mode friendly -->
-	<svg width="90%" height="160" viewBox="0 0 1000 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Timeline">
-		<style>
-			.node { fill: #0fffd6; }
-			.past { fill: #7a00ff; }
-			.label { fill: #cfeffd; font-family: Inter, Roboto, sans-serif; font-size: 12px; }
-		</style>
-
-		<!-- baseline -->
-		<line x1="50" x2="950" y1="80" y2="80" stroke="#1f2430" stroke-width="4" />
-
-		<!-- nodes with animated pulsing -->
-		<g>
-			<circle class="node" cx="120" cy="80" r="12">
-				<animate attributeName="r" values="12;14;12" dur="2.8s" repeatCount="indefinite"></animate>
-			</circle>
-			<text x="120" y="110" text-anchor="middle" class="label">Fundamentals</text>
-		</g>
-
-		<g>
-			<circle cx="260" cy="80" r="10" fill="#bb86fc">
-				<animate attributeName="r" values="10;12;10" dur="2.6s" repeatCount="indefinite" begin="0.2s"></animate>
-			</circle>
-			<text x="260" y="110" text-anchor="middle" class="label">Algorithms</text>
-		</g>
-
-		<g>
-			<circle cx="400" cy="80" r="10" fill="#9b5cff">
-				<animate attributeName="r" values="10;12;10" dur="2.6s" repeatCount="indefinite" begin="0.4s"></animate>
-			</circle>
-			<text x="400" y="110" text-anchor="middle" class="label">OOP & Design</text>
-		</g>
-
-		<g>
-			<circle cx="540" cy="80" r="11" fill="#ff2d95">
-				<animate attributeName="r" values="11;13;11" dur="2.6s" repeatCount="indefinite" begin="0.6s"></animate>
-			</circle>
-			<text x="540" y="110" text-anchor="middle" class="label">Data Analysis</text>
-		</g>
-
-		<g>
-			<circle cx="680" cy="80" r="11" fill="#00e0ff">
-				<animate attributeName="r" values="11;13;11" dur="2.6s" repeatCount="indefinite" begin="0.8s"></animate>
-			</circle>
-			<text x="680" y="110" text-anchor="middle" class="label">Web & APIs</text>
-		</g>
-
-		<g>
-			<circle cx="800" cy="80" r="11" fill="#00ff7a">
-				<animate attributeName="r" values="11;13;11" dur="2.6s" repeatCount="indefinite" begin="1.0s"></animate>
-			</circle>
-			<text x="800" y="110" text-anchor="middle" class="label">Automation</text>
-		</g>
-
-		<g>
-			<circle cx="880" cy="80" r="12" fill="#ffd600">
-				<animate attributeName="r" values="12;14;12" dur="2.8s" repeatCount="indefinite" begin="1.2s"></animate>
-			</circle>
-			<text x="880" y="110" text-anchor="middle" class="label">GUI</text>
-		</g>
-
-		<g>
-			<circle cx="940" cy="80" r="14" fill="#ff7a00">
-				<animate attributeName="r" values="14;16;14" dur="3s" repeatCount="indefinite" begin="1.4s"></animate>
-			</circle>
-			<text x="940" y="110" text-anchor="middle" class="label">AI / ML / DL</text>
-		</g>
-	</svg>
-</p>
 
 ---
 
@@ -287,14 +216,5 @@ README Outline: Problem • Data • Model • Results • Next steps
 
 ---
 
-### Final note
-If you'd like, I can:
-- Generate a cover GIF for the header (neon animated banner) and add it to `/assets`.
-- Expand each project README with a one-minute screencast + quick demo GIF.
-- Add CI badges (pytest, lint) and a CONTRIBUTING guide.
-
-Would you like me to:
-- Create `/assets/banner.gif` and update the README to link it?
-- Or start expanding individual project READMEs automatically?
 
 Thank you — let’s make this portfolio shine. ✨
