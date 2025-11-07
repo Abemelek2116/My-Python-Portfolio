@@ -1,39 +1,8 @@
-
-
-<!-- Animated SVG header (futuristic neon gradient) -->
-<!--<p align="center">
-	<svg width="100%" height="140" viewBox="0 0 1200 140" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Abemelek Berhanu — AbeX">
-		<defs>
-			<linearGradient id="g1" x1="0" x2="1">
-				<stop offset="0%" stop-color="#00FFEA"/>
-				<stop offset="50%" stop-color="#7A00FF"/>
-				<stop offset="100%" stop-color="#FF2D95"/>
-			</linearGradient>
-			<filter id="glow">
-				<feGaussianBlur stdDeviation="6" result="coloredBlur"/>
-				<feMerge>
-					<feMergeNode in="coloredBlur"/>
-					<feMergeNode in="SourceGraphic"/>
-				</feMerge>
-			</filter>
-		</defs>
-		<rect width="1200" height="140" rx="8" fill="#0B1020"/>
-		<g filter="url(#glow)">
-			<text x="50%" y="45" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="34" text-anchor="middle" fill="url(#g1)" style="letter-spacing:2px;">
-				Abemelek Berhanu
-			</text>
-			<text x="50%" y="90" font-family="Courier New, monospace" font-size="18" text-anchor="middle" fill="#CFEFFD" opacity="0.9">
-				<tspan fill="#00FFEA">AbeX</tspan> — Turning data into intelligence | AI Engineer | Python Developer
-			</text>
-			<!-- Neon animated underline -->
-			<line x1="300" x2="900" y1="100" y2="100" stroke="url(#g1)" stroke-width="2">
-				<animate attributeName="x1" values="300;310;300" dur="3s" repeatCount="indefinite"/>
-				<animate attributeName="x2" values="900;890;900" dur="3s" repeatCount="indefinite"/>
-			</line>
-		</g>
-	</svg>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Abemelek2116/My-Python-Portfolio/refs/heads/main/assets/animated_header.svg" width="100%" alt="Abemelek Berhanu — AbeX animated header">
 </p>
--->
+
+
 <!-- Top stats and dynamic widgets -->
 <p align="center">
 	<img alt="Typing" src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=700&color=00FFEA&center=true&vCenter=true&width=650&lines=Building+practical+AI+systems;Turning+data+into+intelligence;Learning+relentlessly+%E2%9C%8C%EF%B8%8F" />
