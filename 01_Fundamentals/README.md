@@ -1,7 +1,9 @@
 # 🧠 Python Fundamentals Projects
 
-Welcome to my **Python Fundamentals Section** — a collection of beginner-to-intermediate level projects.
-Each project reflects my progress in mastering Python’s core principles — from simple data handling to structured logic and problem-solving.  
+Welcome to my **Python Fundamentals Section**  a collection of **beginner-to-intermediate** level projects.
+
+Each project reflects my progress in mastering Python’s core principles from **simple data handling** to **structured logic and problem-solving**.
+
 Every line of code was written and refined to build a solid foundation in Python programming.
 
 ---
