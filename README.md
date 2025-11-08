@@ -42,17 +42,17 @@ Motto:
 ---
 
 ## Quick contact
-- 📧 abemelekberhanu@gmail.com  
-- 🔗 https://linkedin.com/in/abemelek-berhanu  
-- 💬 Telegram: @Abemelek_Berhanu  
-- 💻 GitHub: https://github.com/Abemelek2116
+- 📧Email: abemelekberhanu@gmail.com  
+- 🔗linkedin: https://linkedin.com/in/abemelek-berhanu  
+- 💬Telegram: @Abemelek_Berhanu  
+- 💻GitHub: https://github.com/Abemelek2116
 
 ---
 
 
 ---
 
-## Project Sections — curated & recruiter-friendly
+## Project Sections
 
 Below are the repository sections and highlights. Each section shows an intro, a concise project table and recommended README outline for recruiters.
 
@@ -73,7 +73,7 @@ Badges:
 [![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)](https://www.python.org/)
 [![CLI](https://img.shields.io/badge/CLI-Interactive-green)]()
 
-README Outline: Project summary • How to run • Example run • What you learn
+README : 
 
 ---
 
@@ -90,7 +90,7 @@ Intro: Algorithms implemented, visualized, and explained — a portfolio of path
 Badges:
 [![Algorithm](https://img.shields.io/badge/Algorithms-A*%2C+Backtracking-purple)]()
 
-README Outline: Problem • Approach • How to run • Visual demo
+README : 
 
 ---
 
@@ -107,7 +107,7 @@ Intro: Modular apps using OOP and design patterns — banking sims, plugin frame
 Badges:
 [![OOP](https://img.shields.io/badge/OOP-Patterns-blueviolet)]()
 
-README Outline: Architecture • Key modules • Examples • How to extend
+README : 
 
 ---
 
@@ -124,7 +124,7 @@ Intro: End-to-end data work — pipelines, EDA, visualization, and model prototy
 Badges:
 [![Pandas](https://img.shields.io/badge/Pandas-dataframe-blue)](https://pandas.pydata.org/) [![Matplotlib](https://img.shields.io/badge/Matplotlib-plotting-orange)]()
 
-README Outline: Data sources • How to reproduce • Results
+README :
 
 ---
 
@@ -138,7 +138,7 @@ Intro: Small web APIs and demo frontends to expose ML and utilities.
 Badges:
 [![Flask](https://img.shields.io/badge/Flask-API-lightgrey)]()
 
-README Outline: Endpoints • Examples • Deploy
+README : 
 
 ---
 
@@ -152,7 +152,7 @@ Intro: Scripts that automate repetitive tasks — data munging, file ops, automa
 Badges:
 [![Automation](https://img.shields.io/badge/Automation-scripting-green)]()
 
-README Outline: How to use • Examples
+README : 
 
 ---
 
@@ -167,8 +167,7 @@ Intro: GUI apps for interaction and visualization — PySimpleGUI / Tkinter demo
 Badges:
 [![Tkinter](https://img.shields.io/badge/Tkinter-GUI-lightblue)]()
 
-README Outline: How to run • Screenshots • Controls
-
+README : 
 ---
 
 ### 08_AI / ML / DL — models & projects
@@ -182,7 +181,7 @@ Intro: Practical ML experiments and prototypes — from classic models to DL exp
 Badges:
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-experiments-orange)]() [![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-blue)]()
 
-README Outline: Problem • Data • Model • Results • Next steps
+README : 
 
 ---
 
@@ -195,10 +194,10 @@ README Outline: Problem • Data • Model • Results • Next steps
 
 ---
 
-## Recruiter-friendly highlights
-- Languages: Python (primary), SQL (as used in data projects)  
-- Tools: pandas, scikit-learn, matplotlib, Tkinter, Flask/FastAPI  
-- Practices: modular code, docstrings, CLI-friendly, minimal deps where possible
+## Highlights
+- Languages: `Python` (primary), `SQL` (as used in data projects)  
+- Tools: `pandas`, `scikit-learn`, `matplotlib`, `Tkinter`, `Flask/FastAPI`  
+- Practices: `modular code`, `docstrings`, `CLI-friendly`, `minimal deps` where possible
 
 ---
 
