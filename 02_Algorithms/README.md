@@ -105,7 +105,7 @@ These projects reflect my dedication to learning advanced problem-solving techni
 
 📧 Email: abemelekberhanu@gmail.com
 
-“The best way to learn algorithms is to build, visualize, and optimize them.”
+> The best way to learn algorithms is to build, visualize, and optimize them.
 
 
 
