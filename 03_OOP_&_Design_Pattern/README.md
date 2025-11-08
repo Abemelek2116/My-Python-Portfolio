@@ -33,9 +33,7 @@ This section contains five professional OOP projects designed to demonstrate:
 
 **Tech Stack**: `Python`, `OOP`, `Design Patterns`
 
-📁 **Folder**: Banking System Simulation/
-
-📄 **Main File**: main.py
+**🗂️** [`main.py`](main.py)
 
 ---
 
