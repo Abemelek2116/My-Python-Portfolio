@@ -1,7 +1,7 @@
 # 🧩 Algorithms Section Projects
 
-This section contains **4 algorithm-focused Python projects** demonstrating **AI, problem-solving, pathfinding, and visualization skills**.  
-These projects showcase my **dedication to mastering algorithms, recursion, and data-driven visualizations**, making my portfolio stand out for recruiters.
+- This section contains **4 algorithm-focused Python projects** demonstrating **AI, problem-solving, pathfinding, and visualization skills**.  
+- These projects showcase my **dedication to mastering algorithms, recursion, and data-driven visualizations**, making my portfolio stand out for recruiters.
 
 ---
 
@@ -79,8 +79,8 @@ These projects showcase my **dedication to mastering algorithms, recursion, and 
 1. Visit each project repository to see **code, documentation, and run instructions**.  
 2. Clone any repository to run the projects locally:
 ```bash
-git clone https://github.com/<your-username>/<project-repo>.git
-cd <project-repo>
+git clone https://github.com/Abemelek2116/My-Python-Portfolio.git
+cd My-Python-Portfolio
 python <main-file>.py
 ```
 
@@ -88,13 +88,14 @@ python <main-file>.py
 
 ---
 
-💼 About Me
+## 💼 About Me
 
-Abemelek Berhanu
+**Abemelek Berhanu**
+
 A passionate Python developer building expertise in algorithms, AI, and data-driven visual projects.
 These projects reflect my dedication to learning advanced problem-solving techniques and creating interactive, visually appealing solutions.
 
-📫 Contact & Profiles
+## 📫 Contact & Profiles
 
 🔗 GitHub: https://github.com/Abemelek2116
 
