@@ -15,7 +15,7 @@ Features include card dealing, score tracking, and automated dealer logic.
 - **Concepts Practiced:** Loops, Functions, Conditionals, Lists, Game Logic  
 - **Highlights:** Clean UI in console, modular code design  
 - **Tech Used:** Pure Python (no external libraries)  
-- 🗂️ [`blackjack.py`](./blackjack.py)
+- **🗂️** [`blackjack.py`](./blackjack.py)
 
 ---
 
@@ -25,7 +25,7 @@ Users can chain calculations without restarting the program.
 
 - **Concepts Practiced:** Functions, Dictionaries, User Input, Loops  
 - **Highlights:** Recursive structure for smooth user experience  
-- 🗂️ [`calculator.py`](./calculator.py)
+- **🗂️** [`calculator.py`](./calculator.py)
 
 ---
 
@@ -34,7 +34,7 @@ A fun **number guessing game** where the user competes against the computer to g
 
 - **Concepts Practiced:** Randomization, Loops, Conditional Logic, Functions  
 - **Highlights:** Adjustable difficulty levels (Easy/Hard)  
-- 🗂️ [`guess_number.py`](./guess_number.py)
+- **🗂️** [`guess_number.py`](./guess_number.py)
 
 ---
 
@@ -43,7 +43,7 @@ A customizable **password generator** that creates secure, randomized passwords 
 
 - **Concepts Practiced:** Loops, Random Library, String Manipulation  
 - **Highlights:** Clean and secure password generation logic  
-- 🗂️ [`password_generator.py`](./password_generator.py)
+- **🗂️** [`password_generator.py`](./password_generator.py)
 
 ---
 
@@ -53,7 +53,7 @@ It’s simple, efficient, and built using only core Python concepts.
 
 - **Concepts Practiced:** Dictionaries, Loops, Functions, Input Handling  
 - **Highlights:** Organized structure, clean logic, beginner-friendly code  
-- 🗂️ [`todo_list.py`](./to-do-list.py)
+- **🗂️** [`todo_list.py`](./to-do-list.py)
 
 ---
 
@@ -89,10 +89,10 @@ Each step was an intentional investment in mastering:
 
 ## 🧠 Learning Goals
 
-- Build confidence in Python syntax and logic  
-- Develop structured thinking for problem-solving  
-- Learn clean coding conventions and project documentation  
-- Create beginner-level projects ready for portfolio demonstration  
+- ✅ Build confidence in Python syntax and logic  
+- ✅ Develop structured thinking for problem-solving  
+- ✅ Learn clean coding conventions and project documentation  
+- ✅ Create beginner-level projects ready for portfolio demonstration  
 
 ---
 
@@ -103,7 +103,8 @@ Each step was an intentional investment in mastering:
 A passionate and dedicated Python developer focused on building real-world skills from the ground up.  
 I believe in mastering fundamentals before scaling complexity — and these projects reflect that mindset.
 
-📫 **Contact & Profiles**  
+## 📫 Contact & Profiles  
+
 - 🔗 GitHub: https://github.com/Abemelek2116  
 - 💼 LinkedIn: https://linkedin.com/in/abemelek-berhanu  
 - 📧 Email: abemelekberhanu@gmail.com
