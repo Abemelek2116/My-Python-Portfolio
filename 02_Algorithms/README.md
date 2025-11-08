@@ -14,7 +14,7 @@
   - Human vs AI gameplay
   - Human vs Human gameplay
   - Optimal AI using Minimax algorithm
-- **Repository:** [`ai-tic-tac-toe`](https://github.com/<your-username>/ai-tic-tac-toe)
+- **🗂️** [`ai-tic-tac-toe`](https://github.com/<your-username>/ai-tic-tac-toe)
 
 ---
 
@@ -25,7 +25,7 @@
   - Interactive grid to set start, end, and obstacles
   - Real-time visualization of open, closed nodes and final path
   - Beginner-friendly and modular design
-- **Repository:** [`pathfinding-visualizer`](https://github.com/<your-username>/pathfinding-visualizer)
+- **🗂️** [`pathfinding-visualizer`](https://github.com/<your-username>/pathfinding-visualizer)
 
 ---
 
@@ -36,7 +36,7 @@
   - Console-based board display with 3x3 box separation
   - Backtracking algorithm ensures optimal solution
   - Beginner-friendly and well-commented code
-- **Repository:** [`sudoku-solver`](https://github.com/<your-username>/sudoku-solver)
+- **🗂️** [`sudoku-solver`](https://github.com/<your-username>/sudoku-solver)
 
 ---
 
@@ -48,7 +48,7 @@
   - Real-time animation of comparisons and swaps
   - Supports multiple sorting algorithms
   - Reset and experiment with different datasets
-- **Repository:** [`sorting-visualizer`](https://github.com/<your-username>/sorting-visualizer)
+- **🗂️** [`sorting-visualizer`](https://github.com/<your-username>/sorting-visualizer)
 
 ---
 
@@ -64,27 +64,28 @@
 
 ## 💡 Skills Demonstrated
 
-- **Algorithmic thinking & problem-solving**  
-- **AI strategy implementation** (Minimax for Tic-Tac-Toe)  
-- **Pathfinding & heuristics** (A* algorithm)  
-- **Backtracking & recursion** (Sudoku Solver)  
-- **Data visualization & GUI development** (Sorting & Pathfinding)  
-- **Modular, maintainable Python code**  
-- **Interactive console and GUI applications**
+- ✅**Algorithmic thinking & problem-solving**  
+- ✅**AI strategy implementation** (Minimax for Tic-Tac-Toe)  
+- ✅**Pathfinding & heuristics** (A* algorithm)  
+- ✅**Backtracking & recursion** (Sudoku Solver)  
+- ✅**Data visualization & GUI development** (Sorting & Pathfinding)  
+- ✅**Modular, maintainable Python code**  
+- ✅**Interactive console and GUI applications**
 
 ---
 
 ## 🚀 How to Explore
 
-1. Visit each project repository to see **code, documentation, and run instructions**.  
-2. Clone any repository to run the projects locally:
+1️⃣ Visit each project repository to see **code, documentation, and run instructions**.
+
+2️⃣ Clone any repository to run the projects locally:
 ```bash
 git clone https://github.com/Abemelek2116/My-Python-Portfolio.git
 cd My-Python-Portfolio
 python <main-file>.py
 ```
 
-3.Observe AI decisions, pathfinding behavior, Sudoku solving, or sorting animations in action.
+Observe **AI decisions**, **pathfinding behavior**, **Sudoku solving**, or **Sorting animations in action**.
 
 ---
 
@@ -92,7 +93,8 @@ python <main-file>.py
 
 **Abemelek Berhanu**
 
-A passionate Python developer building expertise in algorithms, AI, and data-driven visual projects.
+A passionate Python developer building expertise in **Algorithms**, **AI**, and **Data-driven visual projects**.
+
 These projects reflect my dedication to learning advanced problem-solving techniques and creating interactive, visually appealing solutions.
 
 ## 📫 Contact & Profiles
