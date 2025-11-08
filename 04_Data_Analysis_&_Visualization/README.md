@@ -6,9 +6,9 @@ A curated collection of advanced Python data analysis and visualization projects
 
 ## 🌍 Overview
 
-This repository contains five professional projects that cover the full data lifecycle — from data collection and cleaning to visualization and prediction.
+This repository contains **five** professional projects that cover the full data lifecycle, from **data collection and cleaning** to **visualization and prediction**.
 
-Each project follows a modular, OOP-inspired structure and emphasizes code clarity, reusability, and scalability, mirroring real-world production practices.
+Each project follows a **Modular**, **OOP-inspired structure and emphasizes code clarity**, **Reusability**, and **Scalability**, **Mirroring real-world production practices**.
 
 ---
 
@@ -51,16 +51,18 @@ data_analysis_project/
 ## 🦠 1️⃣ COVID Data Dashboard
 
 **📌 Goal**: Track and visualize COVID-19 trends across countries.
+
 **📈 Key Insights**: Total cases, daily growth rates, recovery trends.
+
 **🎨 Highlights**: Clean and interactive plots showing comparative analysis.
 
-Skills Demonstrated:
+**Skills Demonstrated**:
 - Data cleaning with Pandas
 - Grouping and aggregation
 - Visual storytelling with Matplotlib and Seaborn
 - Multi-panel dashboards for data interpretation
 
-Outputs:
+**Outputs**:
 - Line plots for country trends
 - Heatmaps for infection intensity
 - CSV summary reports
@@ -70,15 +72,16 @@ Outputs:
 ## ⚙️ 2️⃣ End-to-End Data Pipeline
 
 **📌 Goal**: Build a fully automated system that ingests, cleans, transforms, and exports reports.
+
 **🔁 Flow**: Raw data → Cleaning → Transformation → Report Generation.
 
-Skills Demonstrated:
+**Skills Demonstrated**:
 - Workflow automation
 - Directory and file management with os
 - Logging for tracking process execution
 - Error handling and clean modular functions
 
-Outputs:
+**Outputs**:
 
 - Automated logs
 
@@ -94,13 +97,13 @@ Outputs:
 
 **💡 Approach**: Data preprocessing → Feature engineering → Model training → Evaluation.
 
-Skills Demonstrated:
+**Skills Demonstrated**:
 - Feature selection and encoding
 - Linear Regression, Decision Tree, Random Forest
 - Model evaluation using R², MAE, MSE
 - Visualization of predicted vs actual prices
 
-Outputs:
+**Outputs**:
 - Trained ML model
 - Metrics report
 - Predictive visualizations
@@ -115,13 +118,13 @@ Outputs:
 **📌 Goal**: Analyze financial market data to identify trends and risk metrics.
 **💰 Features**: Fetches stock data via yfinance, calculates indicators (MA, returns, volatility).
 
-Skills Demonstrated:
+**Skills Demonstrated**:
 - API data extraction
 - Time series analysis
 - Financial indicators (MA20, MA50, returns, volatility)
 - Statistical summary generation
 
-Outputs:
+**Outputs**:
 - Price trend plots
 - Distribution of daily returns
 - Summary statistics (volatility, max/min, etc.)
@@ -136,13 +139,13 @@ Outputs:
 **📌 Goal**: Explore and visualize patterns in weather data (temperature, humidity, rainfall).
 **🌤️ Process**: Load → Clean → Analyze → Visualize → Export.
 
-Skills Demonstrated:
+**Skills Demonstrated**:
 - Pandas-based data exploration
 - Descriptive statistics
 - Time-based analysis (monthly and yearly patterns)
 - Visualizations for trend and distribution
 
-Outputs:
+**Outputs**:
 - Summary CSV report
 - Temperature and rainfall trend plots
 
@@ -167,13 +170,12 @@ Outputs:
 
 ## 🧠 Concepts Demonstrated
 
-✅ Exploratory Data Analysis (EDA)
-✅ Data Cleaning & Transformation
-✅ Statistical Summary & Feature Engineering
-✅ Predictive Modeling
-✅ Data Visualization & Storytelling
-✅ Automation with Modular Python Scripts
-✅ Object-Oriented Programming in Data Projects
+- ✅ Exploratory Data Analysis (EDA)
+- ✅ Statistical Summary & Feature Engineering
+- ✅ Predictive Modeling
+- ✅ Data Visualization & Storytelling
+- ✅ Automation with Modular Python Scripts
+- ✅ Object-Oriented Programming in Data Projects
 
 ---
 
@@ -182,7 +184,7 @@ Outputs:
 1️⃣ Clone the repository
 
 ```
-git clone https://github.com/<your-username>/04_Data_Analysis_and_Visualization.git
+git clone https://github.com/Abemelek2116/04_Data_Analysis_and_Visualization.git
 cd 04_Data_Analysis_and_Visualization
 ```
 2️⃣ Choose a project folder
@@ -200,9 +202,6 @@ python main.py
 ## 🏁 Run Online
 
 You can explore or run these projects directly using:
-
-Replit
-
 
 GitHub Codespaces
 
@@ -230,15 +229,15 @@ By completing these projects, I demonstrated:
 
 **👋 Abemelek Berhanu**
 
-📧 EMAIL: abemelekberhanu@gmail.com
+📧 **Email**: abemelekberhanu@gmail.com
 
-💼 LinkedIn Profile
-    https://linkedin.com/abemelek-berhanu
+💼 **LinkedIn Profile**: 
+    https://linkedin.com/-in/abemelek-berhanu
     
-💻 GitHub Profile
+💻 **GitHub Profile**: 
     https://github.com/Abemelek2116
 
 
-🏆 Final Note
+## 🏆 Final Note
 
 “Great data analysis isn’t just about numbers — it’s about telling stories that drive understanding and decisions.”
