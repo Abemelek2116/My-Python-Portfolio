@@ -56,9 +56,10 @@ def delete_task():
         if task_id in tasks:
             task, _ = tasks.pop(task_id)
             print(f"Task '{task}' has been deleted 🗑️\n")
-            # Reassign task IDs
-            global tasks
-            tasks = {i+1: v for i, v in enumerate(tasks.values())}
+            # Reassign task IDs (update in-place to avoid using global)
+            new_tasks = {i+1: v for i, v in enumerate(tasks.values())}
+            tasks.clear()
+            tasks.update(new_tasks)
         else:
             print("⚠️ Invalid task number.\n")
     except ValueError:
