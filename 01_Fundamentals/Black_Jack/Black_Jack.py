@@ -11,7 +11,6 @@ Rules:
 """
 
 import random
-from replit import clear     # Optional: For clearing the console (works in Replit)
 
 
 def deal_card():
@@ -91,9 +90,13 @@ def play_game():
                 is_game_over = True
 
     # Dealer's turn — draws until score is 17 or more
+    computer_score = calculate_score(computer_cards)
     while computer_score != 0 and computer_score < 17:
         computer_cards.append(deal_card())
         computer_score = calculate_score(computer_cards)
+
+    # Recalculate user_score to ensure it's always defined
+    user_score = calculate_score(user_cards)
 
     # Display final results
     print(f"\nYour final hand: {user_cards}, final score: {user_score}")
@@ -103,5 +106,4 @@ def play_game():
 
 # Game loop — allows user to play multiple rounds
 while input("Do you want to play a game of Blackjack? Type 'y' or 'n': ") == "y":
-    clear()
     play_game()
