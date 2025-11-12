@@ -27,7 +27,8 @@ def multiply(n1, n2):
 def divide(n1, n2):
     """Return the division result. Raises an error for division by zero."""
     if n2 == 0:
-        return "Error: Cannot divide by zero."
+        # Return None to indicate an invalid operation (division by zero)
+        return None
     return n1 / n2
 
 
@@ -42,7 +43,6 @@ operations = {
 
 def calculator():
     """Main calculator loop that allows continuous calculations."""
-    print(logo)
     print("Welcome to the Python Calculator!\n")
 
     # Ask the user for the first number
@@ -71,7 +71,19 @@ def calculator():
         # Perform calculation
         calculation_function = operations[operation_symbol]
         answer = calculation_function(num1, num2)
+        # Handle division-by-zero (answer is None)
+        if answer is None:
+            print(f"\nError: Cannot divide {num1} by {num2} (division by zero).\n")
+            # Do not continue with an invalid result; offer to start a new calculation
+            restart = input("Type 'y' to start a new calculation, or any other key to exit: ").lower()
+            if restart == 'y':
+                print("\nStarting a new calculation...\n")
+                calculator()
+            else:
+                print("\nExiting calculator.")
+            return
 
+        # Normal valid result
         print(f"\nResult: {num1} {operation_symbol} {num2} = {answer}\n")
 
         # Ask if the user wants to continue with the result
