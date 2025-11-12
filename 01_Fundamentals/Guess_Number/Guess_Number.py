@@ -48,7 +48,6 @@ def set_difficulty() -> int:
 
 def game():
     """Main game function — handles setup, user input, and game loop."""
-    print(logo)
     print("Welcome to the Number Guessing Game!")
     print("I'm thinking of a number between 1 and 100.")
     answer = randint(1, 100)
@@ -78,7 +77,13 @@ def game():
             print("Guess again!")
 
 
-# Entry point
+# Entry point — run games until the player chooses to stop
 if __name__ == "__main__":
-    game()
+    while True:
+        game()
+        # Ask player if they want to play again
+        again = input("Do you want to play again? Type 'y' or 'n': ").lower()
+        if again != 'y':
+            print("Thanks for playing. Goodbye!")
+            break
 
