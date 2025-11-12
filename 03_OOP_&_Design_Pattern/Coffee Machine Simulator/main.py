@@ -16,6 +16,10 @@ def main():
     Logger.subscribe(ConsoleLogger())
 
     machine = CoffeeMachine.get_instance()
+    if machine is None:
+        Logger.log("Failed to acquire CoffeeMachine instance; aborting.")
+        return
+
     manager = OrderManager(machine)
 
     # Display machine status
