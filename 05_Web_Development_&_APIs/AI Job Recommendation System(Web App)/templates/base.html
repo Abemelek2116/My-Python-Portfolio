@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}AI Job Recommendation{% endblock %}</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <h1>AI Job Recommendation System</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Jobs</a>
+            <a href="#">Profile</a>
+            <a href="#">Login</a>
+        </nav>
+        <hr>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        {% block content %}
+        <!-- Child templates will put content here -->
+        {% endblock %}
+    </main>
+
+    <!-- JS -->
+    <script src="{% static 'js/main.js' %}"></script>
+</body>
+</html>
