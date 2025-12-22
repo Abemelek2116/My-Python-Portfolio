@@ -10,9 +10,8 @@ from pathlib import Path
 # --------------------------------------------------
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = "django-insecure-o0#xla2c99x*@(geu%pbow%@(c%p*%i5utb%7x9ji6%w4b!rxe"
-DEBUG = True
-
+SECRET_KEY = os.getenv("SECRET_KEY", "fallback-secret-key")
+DEBUG = os.getenv("DEBUG") == "True"
 # --------------------------------------------------
 # Hosts (KEEP SIMPLE)
 # --------------------------------------------------
