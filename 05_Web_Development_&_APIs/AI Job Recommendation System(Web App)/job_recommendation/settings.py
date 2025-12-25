@@ -11,7 +11,8 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = os.getenv("SECRET_KEY", "fallback-secret-key")
-DEBUG = os.getenv("DEBUG") == "True"
+DEBUG = True
+# DEBUG = os.getenv("DEBUG") == "True"
 # --------------------------------------------------
 # Hosts (KEEP SIMPLE)
 # --------------------------------------------------
@@ -57,6 +58,17 @@ AUTH_USER_MODEL = "users.CustomUser"
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 # --------------------------------------------------
+# LOGIN / LOGOUT REDIRECTS
+# --------------------------------------------------
+# After login (or after signup and auto-login)
+LOGIN_REDIRECT_URL = 'home'   # redirect to the home page (name of the URL pattern)
+
+# After logout
+LOGOUT_REDIRECT_URL = 'login'  # redirect to login page
+
+
+
+# --------------------------------------------------
 # Middleware
 # IMPORTANT: CSRF DISABLED FOR DEV
 # --------------------------------------------------
@@ -64,7 +76,7 @@ MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
-    # "django.middleware.csrf.CsrfViewMiddleware",  # DISABLED
+    "django.middleware.csrf.CsrfViewMiddleware",  # DISABLED
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
@@ -96,6 +108,7 @@ WSGI_APPLICATION = "job_recommendation.wsgi.application"
 # --------------------------------------------------
 # Database (Docker / Postgres)
 # --------------------------------------------------
+"""
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
@@ -106,6 +119,18 @@ DATABASES = {
         "PORT": os.getenv("DB_PORT"),
     }
 }
+"""
+# --------------------------------------------------
+# Database (SQLite for local dev)   
+
+
+DATABASES = {
+    "default": {
+        "ENGINE": "django.db.backends.sqlite3",
+        "NAME": BASE_DIR / "db.sqlite3",
+    }
+}
+
 
 # --------------------------------------------------
 # Password validation

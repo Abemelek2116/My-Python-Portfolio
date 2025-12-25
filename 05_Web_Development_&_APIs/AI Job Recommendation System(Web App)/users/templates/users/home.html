@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    {% if user.is_authenticated %}
+        <h1>Welcome, {{ user.username }}!</h1>
+        <p>You are logged in.</p>
+    {% else %}
+        <h1>Welcome to the AI Job Recommendation System!</h1>
+        <p>Please <a href="{% url 'login' %}">Login</a> or <a href="{% url 'signup' %}">Sign Up</a> to continue.</p>
+    {% endif %}
+</div>
+{% endblock %}
