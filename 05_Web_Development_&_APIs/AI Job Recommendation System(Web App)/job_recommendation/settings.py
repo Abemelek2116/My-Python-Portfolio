@@ -16,6 +16,14 @@ DEBUG = True
 # --------------------------------------------------
 # Hosts (KEEP SIMPLE)
 # --------------------------------------------------
+
+# --------------------------------------------------
+# Media files
+# --------------------------------------------------
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
 ALLOWED_HOSTS = [
     "localhost",
     "127.0.0.1",
@@ -52,10 +60,14 @@ INSTALLED_APPS = [
 
     # Third-party
     "rest_framework",
+    "django_crontab",
 ]
 
 AUTH_USER_MODEL = "users.CustomUser"
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+
+LOGIN_URL = '/login/'
 
 # --------------------------------------------------
 # LOGIN / LOGOUT REDIRECTS
@@ -155,3 +167,8 @@ USE_TZ = True
 # --------------------------------------------------
 STATIC_URL = "/static/"
 STATICFILES_DIRS = [BASE_DIR / "static"]
+
+
+CRONJOBS = [
+    ('0 * * * *', 'jobs.cron.fetch_jobs'),
+]

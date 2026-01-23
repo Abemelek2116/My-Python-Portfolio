@@ -1,12 +1,9 @@
 from django.db import models
-
-# Create your models here.
 from django.contrib.auth.models import AbstractUser
+from django.conf import settings
 
 
 class CustomUser(AbstractUser):
-    # You can add custom fields later (e.g., phone, role)
-    # For now, keep it simple
     email = models.EmailField(unique=True)
 
     def __str__(self):
@@ -14,9 +11,11 @@ class CustomUser(AbstractUser):
 
 
 class Profile(models.Model):
-    user = models.OneToOneField(CustomUser, on_delete=models.CASCADE)
+    user = models.OneToOneField(
+        settings.AUTH_USER_MODEL,
+        on_delete=models.CASCADE
+    )
 
-    # Full LinkedIn-style profile
     resume_file = models.FileField(upload_to='resumes/', null=True, blank=True)
     skills = models.ManyToManyField('jobs.Skill', blank=True)
 
@@ -35,3 +34,19 @@ class Profile(models.Model):
 
     def __str__(self):
         return f"{self.user.username}'s Profile"
+
+
+class ParsedResume(models.Model):
+    user = models.OneToOneField(
+        settings.AUTH_USER_MODEL,
+        on_delete=models.CASCADE
+    )
+
+    skills = models.JSONField(null=True, blank=True)
+    education = models.JSONField(null=True, blank=True)
+    experience = models.JSONField(null=True, blank=True)
+
+    parsed_at = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return f"Parsed resume for {self.user.username}"

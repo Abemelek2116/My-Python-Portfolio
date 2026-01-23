@@ -18,12 +18,12 @@ h1, h2, h3, h4, h5, h6 {
 /* ----------------------------------------- */
 header, .navbar {
     background-color: #0a2540;
-    color: white;
+    color: blueviolet;
     padding: 15px;
 }
 
 .navbar a {
-    color: white;
+    color: blueviolet;
     margin-right: 15px;
     text-decoration: none;
     transition: color 0.2s;
@@ -41,6 +41,10 @@ main, .main-content {
     transition: margin-left 0.3s;
 }
 
+.main-content.shifted {
+    margin-left: 250px;
+}
+
 /* ----------------------------------------- */
 /* SIDEBAR STYLES */
 /* ----------------------------------------- */
@@ -51,7 +55,7 @@ main, .main-content {
     width: 250px;
     height: 100%;
     background-color: #0a2540;
-    color: white;
+    color: blueviolet;
     padding: 20px;
     transition: all 0.3s;
     z-index: 1000;
@@ -68,30 +72,34 @@ main, .main-content {
     color: #ff6b6b;
 }
 
+/* ✅ EDITED */
 .sidebar a {
     display: block;
     margin-bottom: 10px;
-    color: white;
+    color: #4169E1 !important; /* Royal Blue */
     text-decoration: none;
     transition: color 0.2s;
 }
 
+/* ✅ EDITED */
 .sidebar a:hover {
-    color: #ff6b6b;
+    color: #ff6b6b !important;
 }
 
-/* Logout button in sidebar */
+/* ✅ EDITED */
 .sidebar form button {
-    color: white;
+    color: #4169E1 !important;
     background: none;
     border: none;
     padding: 0;
     cursor: pointer;
     font-size: 1rem;
+    transition: color 0.2s;
 }
 
+/* ✅ EDITED */
 .sidebar form button:hover {
-    color: #ff6b6b;
+    color: #ff6b6b !important;
 }
 
 /* ----------------------------------------- */
@@ -101,6 +109,8 @@ main, .main-content {
     font-size: 1.5rem;
     cursor: pointer;
     color: #0a2540;
+    position: relative;
+    z-index: 1101;
 }
 
 /* ----------------------------------------- */
