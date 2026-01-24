@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Recommended Jobs For You</h1>
+
+{% if ranked_jobs %}
+<div class="job-list">
+    {% for item in ranked_jobs %}
+    <div class="job-card">
+        <h3>{{ item.job.title }}</h3>
+        <p><strong>Company:</strong> {{ item.job.company }}</p>
+        <p><strong>Location:</strong> {{ item.job.location }}</p>
+        <p><strong>Match Score:</strong> {{ item.score }}</p>
+
+        <a href="{% url 'job_detail' item.job.id %}">
+            View Details
+        </a>
+    </div>
+    <hr>
+    {% endfor %}
+</div>
+{% else %}
+<p>No recommendations yet. Upload your resume.</p>
+{% endif %}
+{% endblock %}

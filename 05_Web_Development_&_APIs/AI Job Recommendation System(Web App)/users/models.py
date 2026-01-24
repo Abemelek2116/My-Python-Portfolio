@@ -17,6 +17,8 @@ class Profile(models.Model):
     )
 
     resume_file = models.FileField(upload_to='resumes/', null=True, blank=True)
+    resume_vector = models.JSONField(null=True, blank=True)
+
     skills = models.ManyToManyField('jobs.Skill', blank=True)
 
     bio = models.TextField(null=True, blank=True)

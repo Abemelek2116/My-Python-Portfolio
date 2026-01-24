@@ -26,6 +26,9 @@ class Job(models.Model):
 
     created_at = models.DateTimeField(auto_now_add=True)
 
+    job_vector = models.JSONField(null=True, blank=True)
+
+
     def __str__(self):
         return f"{self.title} at {self.company}"
 
@@ -44,3 +47,12 @@ class Application(models.Model):
 
     def __str__(self):
         return f"{self.user.username} → {self.job.title}"
+
+class SavedJob(models.Model):
+    user = models.ForeignKey(CustomUser, on_delete=models.CASCADE)
+    job = models.ForeignKey(Job, on_delete=models.CASCADE)
+    saved_at = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return f"{self.user.username} saved {self.job.title}"
+
