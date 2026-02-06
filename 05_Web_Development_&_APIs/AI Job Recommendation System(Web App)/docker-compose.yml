@@ -17,12 +17,14 @@ services:
   db:
     image: postgres:15
     container_name: postgres_db
-    volumes:
-      - postgres_data:/var/lib/postgresql/data
     environment:
       POSTGRES_DB: jobdb
       POSTGRES_USER: jobuser
       POSTGRES_PASSWORD: jobpassword
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
 
 volumes:
   postgres_data:

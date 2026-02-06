@@ -8,6 +8,7 @@ from matching.services import rank_jobs_for_user
 # Forms and models
 from users.forms import SignupForm, ProfileForm
 from users.models import Profile, ParsedResume
+from users.resume_utils import extract_text
 
 # Resume parser imports
 from .parsers.text_extractor import extract_text

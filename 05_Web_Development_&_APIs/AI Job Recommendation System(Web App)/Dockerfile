@@ -1,20 +1,24 @@
-# 1. Base image (Python installed)
+# Use Python 3.11 slim
 FROM python:3.11-slim
 
-# 2. Set working directory inside container
+# Set working directory
 WORKDIR /app
 
-# 3. Copy requirements file
-COPY requirments.txt .
+# Copy requirements
+COPY requirements.txt .
 
-# 4. Install dependencies
-RUN pip install --no-cache-dir -r requirments.txt
+# Upgrade pip and install dependencies
+RUN pip install --upgrade pip
+RUN pip install -r requirements.txt
 
-# 5. Copy project code
+# Copy the rest of the project
 COPY . .
 
-# 6. Expose port 8000
-EXPOSE 8000
+# Set Python output to unbuffered
+ENV PYTHONUNBUFFERED=1
 
-# 7. Run Django server
-CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
+# Expose port 10000 for Render
+EXPOSE 10000
+
+# Start the app using Gunicorn
+CMD ["gunicorn", "job_recommendation.wsgi:application", "--bind", "0.0.0.0:10000"]

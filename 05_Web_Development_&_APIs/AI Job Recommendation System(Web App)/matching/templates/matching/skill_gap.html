@@ -1,13 +1,10 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h2>Missing Skills for {{ job.title }}</h2>
-
+<h2>Skill Gap</h2>
 <ul>
-    {% for skill in missing_skills %}
+  {% for skill in missing_skills %}
     <li>{{ skill }}</li>
-    {% empty %}
-    <li>You already match all required skills 🎉</li>
-    {% endfor %}
+  {% endfor %}
 </ul>
 {% endblock %}

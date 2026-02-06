@@ -4,6 +4,13 @@ Django settings for job_recommendation project.
 
 import os
 from pathlib import Path
+from dotenv import load_dotenv
+import dj_database_url
+
+# --------------------------------------------------
+# Load environment variables (.env)
+# --------------------------------------------------
+load_dotenv()
 
 # --------------------------------------------------
 # Base
@@ -11,24 +18,23 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = os.getenv("SECRET_KEY", "fallback-secret-key")
-DEBUG = True
-# DEBUG = os.getenv("DEBUG") == "True"
+DEBUG = os.getenv("DEBUG", "False") == "True"
+
 # --------------------------------------------------
-# Hosts (KEEP SIMPLE)
+# Hosts
 # --------------------------------------------------
+ALLOWED_HOSTS = [
+    "localhost",
+    "127.0.0.1",
+    ".app.github.dev",   # Codespaces
+    ".onrender.com",     # Render
+]
 
 # --------------------------------------------------
 # Media files
 # --------------------------------------------------
-
-MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-
-ALLOWED_HOSTS = [
-    "localhost",
-    "127.0.0.1",
-    ".app.github.dev",   # allow ALL Codespace preview URLs
-]
+MEDIA_URL = "/media/"
+MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
 # --------------------------------------------------
 # CSRF / Cookies (DEV FIX)
@@ -39,7 +45,10 @@ CSRF_USE_SESSIONS = False
 CSRF_COOKIE_HTTPONLY = False
 
 CSRF_TRUSTED_ORIGINS = [
+    "http://localhost:8000",
+    "https://localhost:8000",
     "https://*.app.github.dev",
+    "https://*.onrender.com", 
 ]
 
 # --------------------------------------------------
@@ -66,29 +75,19 @@ INSTALLED_APPS = [
 AUTH_USER_MODEL = "users.CustomUser"
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-
-LOGIN_URL = '/login/'
-
-# --------------------------------------------------
-# LOGIN / LOGOUT REDIRECTS
-# --------------------------------------------------
-# After login (or after signup and auto-login)
-LOGIN_REDIRECT_URL = 'home'   # redirect to the home page (name of the URL pattern)
-
-# After logout
-LOGOUT_REDIRECT_URL = 'login'  # redirect to login page
-
-
+LOGIN_URL = "/login/"
+LOGIN_REDIRECT_URL = "home"
+LOGOUT_REDIRECT_URL = "login"
 
 # --------------------------------------------------
 # Middleware
-# IMPORTANT: CSRF DISABLED FOR DEV
 # --------------------------------------------------
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
+    "whitenoise.middleware.WhiteNoiseMiddleware",  # REQUIRED for Render
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
-    "django.middleware.csrf.CsrfViewMiddleware",  # DISABLED
+    "django.middleware.csrf.CsrfViewMiddleware",
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
@@ -118,31 +117,15 @@ TEMPLATES = [
 WSGI_APPLICATION = "job_recommendation.wsgi.application"
 
 # --------------------------------------------------
-# Database (Docker / Postgres)
+# Database (Render PostgreSQL via DATABASE_URL)
 # --------------------------------------------------
-"""
 DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.postgresql",
-        "NAME": os.getenv("DB_NAME"),
-        "USER": os.getenv("DB_USER"),
-        "PASSWORD": os.getenv("DB_PASSWORD"),
-        "HOST": os.getenv("DB_HOST"),
-        "PORT": os.getenv("DB_PORT"),
-    }
+    "default": dj_database_url.config(
+        default=os.environ.get("DATABASE_URL"),
+        conn_max_age=600,
+        ssl_require=True,
+    )
 }
-"""
-# --------------------------------------------------
-# Database (SQLite for local dev)   
-
-
-DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
-    }
-}
-
 
 # --------------------------------------------------
 # Password validation
@@ -167,8 +150,11 @@ USE_TZ = True
 # --------------------------------------------------
 STATIC_URL = "/static/"
 STATICFILES_DIRS = [BASE_DIR / "static"]
+STATIC_ROOT = BASE_DIR / "staticfiles"
 
-
+# --------------------------------------------------
+# Cron
+# --------------------------------------------------
 CRONJOBS = [
-    ('0 * * * *', 'jobs.cron.fetch_jobs'),
+    ("0 * * * *", "jobs.cron.fetch_jobs"),
 ]
